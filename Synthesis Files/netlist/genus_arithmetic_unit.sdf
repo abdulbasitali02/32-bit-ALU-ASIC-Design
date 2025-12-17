@@ -1,0 +1,111 @@
+(DELAYFILE
+  (SDFVERSION  "OVI 3.0")
+  (DESIGN      "arithmetic_unit")
+  (DATE        "Sun Dec 14 11:45:39 EST 2025")
+  (VENDOR      "Cadence, Inc.")
+  (PROGRAM     "Genus(TM) Synthesis Solution")
+  (VERSION     "21.17-s066_1")
+  (DIVIDER     /)
+  (VOLTAGE     ::0.9)
+  (PROCESS     "::1.0")
+  (TEMPERATURE ::125.0)
+  (TIMESCALE   1ps)
+  (CELL
+     (CELLTYPE "OR2X1")
+     (INSTANCE FA/g79__2398)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.0))
+          (PORT B (::0.0))
+          (IOPATH A Y (::93) (::128))
+          (IOPATH B Y (::92) (::121))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKMX2X12")
+     (INSTANCE FA/g80__5107)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.0))
+          (PORT B (::0.0))
+          (PORT S0 (::0.0))
+          (IOPATH A Y (::376) (::338))
+          (IOPATH B Y (::386) (::352))
+          (IOPATH S0 Y (::388) (::357))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "AOI2BB1X1")
+     (INSTANCE FA/g81__6260)
+     (DELAY
+        (ABSOLUTE
+          (PORT A0N (::0.0))
+          (PORT A1N (::0.0))
+          (PORT B0 (::0.0))
+          (IOPATH A1N Y (::85) (::111))
+          (IOPATH B0 Y (::51) (::35))
+          (IOPATH A0N Y (::73) (::101))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "ADDHX1")
+     (INSTANCE FA/g82__4319)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.0))
+          (PORT B (::0.0))
+          (IOPATH A CO (::115) (::56))
+          (IOPATH B CO (::126) (::73))
+          (IOPATH A S (::183) (::168))
+          (IOPATH B S (::149) (::155))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "INVX1")
+     (INSTANCE FA/g83)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.0))
+          (IOPATH A Y (::17) (::20))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKBUFX20")
+     (INSTANCE FA/drc_bufs)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.0))
+          (IOPATH A Y (::2495) (::3135))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "CLKBUFX20")
+     (INSTANCE FA/drc_bufs84)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.0))
+          (IOPATH A Y (::2543) (::3163))
+        )
+     )
+  )
+  (CELL
+     (CELLTYPE "MX2XL")
+     (INSTANCE MUX_B/g39__8428)
+     (DELAY
+        (ABSOLUTE
+          (PORT A (::0.0))
+          (PORT B (::0.0))
+          (PORT S0 (::0.0))
+          (IOPATH A Y (::141) (::122))
+          (IOPATH B Y (::140) (::124))
+          (IOPATH S0 Y (::144) (::132))
+        )
+     )
+  )
+)
