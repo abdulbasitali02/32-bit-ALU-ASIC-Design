@@ -183,8 +183,8 @@ Automation enables:
 
 ## Results Summary
 
-- Achieved **153 MHz timing closure**
-- **+1.26 ns worst-case slack** at **125 °C**
+- Achieved *6.39 MHz timing closure**
+- **+9.38 ns worst-case slack** at **125 °C**
 - Clean DRC/LVS with no violations
 - Successful GDS export for tape-out-ready layouts
 
